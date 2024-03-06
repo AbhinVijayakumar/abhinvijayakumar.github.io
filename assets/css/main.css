@@ -26,6 +26,11 @@ section, summary, time, mark, audio, video {
     vertical-align: baseline;
 }
 
+html, body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
